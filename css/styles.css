@@ -84,13 +84,12 @@ nav ul li{
 /*------------
 ---- hero ----
 --------------*/
-.column span {
+h1 {
     font-size: 40px;
 }
 
-.column span p{
-    font-size: 20px;
-    margin-bottom: 20px;
+.hero-body  span{
+    font-size: 25px;
 }
 
 .hero-body {    
@@ -113,6 +112,10 @@ nav ul li{
     text-align: center;    
     flex: 1 1 0;
 }
+
+.hero {
+    margin: 80px;
+}
 .hero img {
     width: 250px;
     border-radius: 100%;
@@ -130,41 +133,43 @@ nav ul li{
     color: #fff;
 }
 
-.about-root span {
+.about-root p{
     font-size: 35px;
-    padding-left: 40px;
 }
 
-
-.coll-1 p{
-    text-align: left;
+.about-root span {
     font-size: 25px;
+    
 }
 
 .coll-1 {
-    flex: 1 1 0;
-    display: inline-block;
-    padding: 80px 0 80px 0;
+    flex: 1 1 0;    
+    margin: 80px 0 80px 0;
     text-align: center;
-    vertical-align: top;    
 }
 
 .fa-html5 {
     color: #F16529;
     padding: 25px 10px 0 0;
-    transform: translate(70%)
 }
 
 .fa-css3-alt {
     color: #2965f1;
     padding: 25px 10px 0 0;
-    transform: translate(70%)
 }
 
 .fa-js {
     color: #f0db4f;
     padding: 25px 10px 0 0;
-    transform: translate(70%)
+}
+.about-root .fa-github {
+    color: #cccccc;
+    padding: 25px 10px 0 0;
+}
+
+.fa-code {
+    color: #0078d7;
+    padding: 25px 10px 0 0;
 }
 /*--------------
 ---- Footer ----
