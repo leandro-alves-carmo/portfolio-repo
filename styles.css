@@ -1,0 +1,165 @@
+/*------------
+---- Root ----
+--------------*/
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  background: #fff;
+  box-sizing: border-box;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffa321;
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+h1,h2,h3,h4 {
+    font-weight: 500;
+    
+}
+/*--------------
+-- Navigation --
+--------------*/
+.header {
+    width: 100%;
+    height: auto;
+}
+
+.navigation {
+  max-width: 1300px;
+  min-width: 100%;
+  background: rgba(255,255,255,.2);
+}
+
+.logo img {
+    width: 250px;
+    max-width: 100%;
+    cursor: pointer;
+}
+
+.social-media ul { 
+  display: flex;    
+  margin-top: 20px;
+  transform: translate(-20%);
+}
+
+.social-media ul li {
+    margin-right: 15px;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  flex: 1;
+  text-align: right;  
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 35px;
+}
+
+.logo {
+  width: 250px;
+  height: auto;
+}
+
+/*------------
+---- hero ----
+--------------*/
+.title h1 {
+    margin-top: 60px;
+    font-size: 40px;
+}
+
+.title span {
+    color:#ffa321;
+}
+
+.container {
+    display: flex;
+    position: relative;
+    margin: 0 auto;    
+    -moz-box-flex: 1;
+    -webkit-box-flex: 1;
+}
+
+.column {
+    text-align: center;    
+    flex: 1 1 0;
+}
+
+.hero img {
+    padding: 70px 0;
+    width: 250px;
+    border-radius: 100%;
+    cursor: progress;
+}
+
+.hero-foot {
+    color: #000;
+    margin-bottom: 0;
+}
+
+/*--------------
+----- About ----
+----------------*/
+.about {
+    padding-top: 60px;
+    background: #36454f;
+    color: #fff;
+    font-size: 20px;
+}
+
+.fa-html5 {
+    color: #e34c26;
+    margin-right: 20px;
+}
+
+.fa-css3-alt {
+    color: #405bc7;
+    margin-right: 20px;
+}
+
+.fa-js {
+    color: #f0db4f;
+    margin-right: 20px;
+}
+
+.fa-code {
+    color: #0078d7;
+    margin-right: 20px;
+}
+
+
+.icons hr {
+    margin: 90px 0;
+    border: none;
+}
+/*--------------
+---- Footer ----
+----------------*/
+.footer {
+  display: flex;
+  text-align: center;
+  font-size: 14px;
+}
+
+.copyright p {
+  color: #000;
+  text-align: center;
+}

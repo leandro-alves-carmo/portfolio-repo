@@ -10,7 +10,7 @@
     <!-- Favicon -->
     <!-- -------------------------------------------------------------- -->
     <!-- CSS -->
-    <link alt="My-CSS" rel="stylesheet" href="/css/styles.css" />
+    <link alt="My-CSS" rel="stylesheet" href="/styles.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
@@ -25,11 +25,11 @@
   <body>
     <!-- -------------------------------------------------------------- -->
     <!-- Navigation -->
-    <section class="header">
+    <header id="header" class="header">
       <div class="navigation">
         <div class="nav-bar">
           <figure class="logo">
-            <img src="/images/logo.png" alt="Leandro Carmo logo" />
+            <img src="/logo.png" alt="Leandro Carmo logo" />
           </figure>
           <!------>
           <div class="social-media">
@@ -53,40 +53,36 @@
           </div>
 
           <!------>
-          <nav>
-            <ul>
-              <li>
-                <a href="#"><span>Home</span></a>
-              </li>
-              <li>
-                <a href="#"><span>About</span></a>
-              </li>
-              <li>
-                <a href="#"><span>Contact</span></a>
-              </li>
+          <nav class="nav">
+            <ul class="nav-item">
+              <li><a href="#home">home</a></li>
+              <li><a href="#about">about</a></li>
+              <li><a href="#project">project</a></li>
+              <li><a href="#contact">contact</a></li>
             </ul>
           </nav>
           <!------>
         </div>
       </div>
-    </section>
+    </header>
     <!-- -------------------------------------------------------------- -->
     <!-- Hero -->
     <section>
-      <div class="hero-body">
-        <div class="container">
-          <div class="column">
-            <h1>Front-end Developer</h1>
-            <span>I code systematically, clean and I love what I do.</span>
-
-            <figure class="hero">
-              <img src="/images/hero.jpg" />
-            </figure>
-            <!------>
-            <figure class="hero-foot">
-              <img src="/images/hero-foot.png" />
-            </figure>
+      <div class="container">
+        <div class="column">
+          <!------>
+          <div class="title">
+            <h1>Front-end <span>Developer</span></h1>
+            <h2>I code systematically, clean and I love what I do.</h2>
           </div>
+          <!------>
+          <figure class="hero">
+            <img src="/hero.jpg" />
+          </figure>
+          <!------>
+          <figure class="hero-foot">
+            <img src="/hero-foot.png" />
+          </figure>
         </div>
       </div>
     </section>
@@ -94,51 +90,44 @@
     <!-- -------------------------------------------------------------- -->
     <!-- About Me-->
     <section>
-      <div class="about-root">
-        <div class="container">
-          <div class="coll-1">
-            <p>Hi I`m Leo</p>
-            <span>
-              I'm naturally curious and I`m always working on improving my
-              skills. <br />I like to code from scratch, I code clean and easy
-              to read patterns. <br />Since beginning my journey as a Developer,
-              I've done e-commerce, portfolio & login interfaces.<br /><br />
-              <!----->
+      <div class="container">
+        <div class="column">
+          <div class="about">
+            <h2>About:</h2>
+            <p>
+              Bringing ideas to life is what i like. I value simple structures
+              and clean design,<br />
               I identify myself as a self-driven person, who takes on
-              responsibility and acts with confidence<br />
-              and persistence. While I was in Brazil, I attended Doctum
-              University and completed<br />
+              responsibility<br />
+              While I was in Brazil, I attended Doctum University and completed
               six months of a Bachelor’s degree in Accounting.<br /><br />
-              <!----->
-              Since my relocation to the United States I am pursuing again my
-              goals in higher education,<br />
-              as well as redirecting my focus towards Programming Languages.
-              <br />From my personal and professional experiences, I have become
-              more aware of my skills and talents;<br />
-              namely, my organizational skills and ability to connect with
-              people. <br /><br />
-              <!----->
-              Through various work assignments, I also recognized my proficiency
-              in solving problems.<br />
-              Incidentally, it was also from these same assignments that I
-              discovered the profession that best matches my interests and
-              abilities: coding.
-            </span>
+              Since my relocation to the United States I redirected my focus
+              towards Programming Language.<br />
+              From my personal and professional experiences, I have become more
+              aware of my skills and talents;<br />
+              Namely conversational, ability to connect with peopleand solving
+              problems.<br /><br />
+              Incidentally, it was also from these skills that I discovered the
+              profession that best matches my interests and abilities:
+              coding.<br />
+              I like to code from scratch, since the beggining of my jouney I`ve
+              done e-commerce webpage, login and portfolio.<br />
+            </p>
+            <!----->
+            <h2>Languages I speak:</h2>
+            <div class="icons">
+              <i class="fa-lg fab fa-html5"> HTML5</i>
+              <i class="fa-lg fab fa-css3-alt"> CSS3</i>
+              <i class="fa-lg fab fa-js"> JavaScript</i>
+            </div>
+            <!----->
+            <h2>Dev Tools:</h2>
+            <div class="icons">
+              <i class="fa-lg fas fa-code"> Visual Code Studio</i>
+              <i class="fa-lg fab fa-github-square"> GitHub</i>
+              <hr />
+            </div>
           </div>
-          <!----->
-          <div class="coll-1">
-            <span class="title">Languages I speak:</span><br />
-            <i class="fa-2x fab fa-html5"> HTML5</i>
-            <i class="fa-2x fab fa-css3-alt"> CSS3</i>
-            <i class="fa-2x fab fa-js"> JavaScript</i>
-          </div>
-          <!----->
-          <div class="coll-1">
-            <span class="title">Dev Tools:</span><br />
-            <i class="fa-2x fas fa-code"> Visual Code Studio</i>
-            <i class="fa-2x fab fa-github"> GitHub</i>
-          </div>
-          <!----->
         </div>
       </div>
     </section>
@@ -156,7 +145,6 @@
     </section>
     <!-- -------------------------------------------------------------- -->
     <!-- Footer -->
-    <hr />
     <section>
       <div class="copyright">
         <p>Handcrafted by me&copy; 2021 - Leandro Carmo</p>
